@@ -1,0 +1,49 @@
+.gallery-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image{
+    width: 30rem;
+    height: 40rem;
+    
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-one, .button-two, .button-three{
+    background-color:#cbc9c7;
+    font-family: serif;
+    color:rgb(74, 73, 73);
+}
+
+.button-one::before{
+    content: "< ";
+}
+
+.button-two::after{
+    content: " >";
+}
+
+.button-three::after{
+    content: " ☾"
+}
+
+
+/* Mobile */
+ @media (max-width: 44rem){
+    .gallery-carousel{
+        display: grid;
+    }
+
+    
+    .gallery-image{
+        grid-area: gallery-image;
+        height: 50rem;
+    }
+} 

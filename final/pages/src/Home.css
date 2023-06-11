@@ -1,0 +1,25 @@
+.panel{
+    display: grid;
+    margin: 1rem;
+    gap: 1rem;
+    grid-template-columns: 1fr auto 1fr;
+    border: 1px solid black;
+
+}
+
+.panel-image{
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem;
+    
+}
+
+.panel-text{
+    padding-right: 1rem;
+}
+
+@media (max-width: 44rem){
+    .panel-text{
+        font-size: 1.4rem;
+    }
+}

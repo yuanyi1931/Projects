@@ -1,0 +1,13 @@
+.about-cats{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 1rem;
+}
+
+.about{
+  display: grid;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+

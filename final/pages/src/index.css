@@ -1,0 +1,21 @@
+*, *::before, *::after{
+  box-sizing:border-boxborder-box;
+}
+
+:root{
+  --bg-color: whitesmoke;
+  --bg-banner-color: #dbd9d6;
+  --bg-banner-select-color: whitesmoke;
+}
+
+html,body{
+  margin: 0;
+  height: 100%;
+  background-color: var(--bg-color);
+  font-family: serif;
+  color:rgb(74, 73, 73);
+}
+
+#root{
+  height: 100%;
+}

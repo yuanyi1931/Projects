@@ -1,0 +1,41 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin: 4rem;
+    gap: 1rem;
+}
+
+.card{
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-image{
+    height: 10rem;
+    width: 10rem;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 44rem) {
+    .card{
+        grid-column: span 4;
+    }
+
+    .card-image{
+        height: 12rem;
+        width: 12rem;
+    }
+    
+}
+
+
+

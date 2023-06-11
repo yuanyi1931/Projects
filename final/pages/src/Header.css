@@ -1,0 +1,47 @@
+.header{
+    display: grid;
+    grid-template-areas: 
+      "header-logo header-title"
+      "header-nav header-nav"
+    ;
+
+    background-color: var(--bg-banner-color);
+}
+
+.header-logo{
+    grid-area: header-logo;
+    width: 6rem;
+    height: 6rem;
+
+}
+
+.header-title{
+    grid-area: header-title;
+    text-align: center;
+}
+
+.header-nav{
+    grid-area: header-nav;
+}
+
+.skip {
+    position: absolute;
+    color: var(--bg-banner-color);
+    text-decoration:none;
+    left: 45%;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus , .skip:hover {
+    position: absolute;   
+    width: auto;
+    color:rgb(39, 37, 37);
+    text-decoration:underline;
+    height: auto;
+}
+
+
+   
